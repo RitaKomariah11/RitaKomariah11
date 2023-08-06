@@ -1,0 +1,9 @@
+name: Test
+
+Stages :
+      - Test
+Postman_tests :
+      Stage : test
+      image : postman/newman_rita11
+      script :
+          - newman --version
